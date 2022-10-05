@@ -29,7 +29,7 @@ h3 {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin: 0;
 }
 
@@ -39,11 +39,6 @@ body {
     color: #F1FAEE;
     font-family: clearlight;
 }
-
-/* h1 {
-    margin: 0 0;
-    padding: 0px 0px;
-} */
 
 #hero {
     display: flex;
@@ -56,6 +51,7 @@ body {
     background-position: center bottom;
     height: 600px;
     /* padding-top: 200px; */
+    opacity: 90%;
 }
 
 #welcome {
@@ -67,6 +63,7 @@ body {
 #caption {
     background-color: #1D3557;
     /* width: 500px; */
+    margin-top: 20px;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -76,6 +73,10 @@ body {
     color: #1D3557;
     height: 500px;
     padding: 20px 0 20px 0;
+}
+
+#activities-caption {
+    margin: 20px 0 20px 0;
 }
 
 #ind-activities-section {
@@ -94,6 +95,16 @@ body {
     width: 250px;
     height: 250px;
     border-radius: 50%;
+}
+
+.img-activities-title {
+    margin: 20px 0 10px 0;
+    /* border: 2px dotted blue; */
+}
+
+.img-activities-subtitle {
+    margin: 0 0 0 0;
+    /* border: 2px dotted blue; */
 }
 
 #guide {
@@ -120,6 +131,9 @@ body {
 
 #card-text {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     /* border: 2px dotted blue; */
 }
 
@@ -134,12 +148,3 @@ body {
     /* border: 2px dotted blue; */
 }
 
-.img-activities-title {
-    margin-top: 30px 0 0 0;
-    border: 2px dotted blue;
-}
-
-.img-activities-subtitle {
-    margin-top: -50px 0 0 0;
-    border: 2px dotted blue;
-}
