@@ -1,0 +1,108 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    color: #F1FAEE;
+}
+
+/* h1 {
+    margin: 0 0;
+    padding: 0px 0px;
+} */
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/Bangalore-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 600px;
+    /* padding-top: 200px; */
+}
+
+#welcome {
+    background-color: #457B9D;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#caption {
+    background-color: #1D3557;
+    width: 500px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#activities {
+    background-color: #F1FAEE;
+    color: #1D3557;
+    height: 500px;
+    padding: 20px 0 20px 0;
+}
+
+#ind-activities-section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ind-activity {
+    width: 25%;
+    /* border: 2px dotted blue; */
+}
+
+.img-activities {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#guide {
+    background-color: white;
+    /* height: 500px; */
+    padding: 50px 0 50px 0;
+}
+
+#card {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 450px;
+    height: 200px;
+    /* border: 2px dotted blue; */
+    background-color: #A8DADC;
+    color: #1D3557;
+    text-align: start;
+    padding: 25px;
+    border-bottom: 10px solid #457B9D;
+    border-radius: 10px;
+
+}
+
+#card-text {
+    width: 50%;
+    /* border: 2px dotted blue; */
+}
+
+#avatar {
+    background-image: url("images/Swagam-Color.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 40%;
+    border-radius: 5px;
+    /* border: 2px dotted blue; */
+}
